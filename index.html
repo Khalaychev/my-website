@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Халайчев Валерий - Резюме</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Халайчев Валерий</h1>
+        <p>Аналитик 1С ЗУП</p>
+        <nav>
+            <ul>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#experience">Опыт работы</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Обо мне</h2>
+            <img src="Аватарка.jpg" alt="Фотография Халайчева Валерия" id="profile-photo">
+            <p id="about-me">Я являюсь аналитиком 1С ЗУП с глубоким знанием системы 1С и большим опытом в интеграции, разработке и тестировании функционала. Имею сертификаты 1С: Профессионал и 1С: Специалист-консультант по системе 1С: ЗУП.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Навыки</h2>
+            <ul id="skills-list">
+                <li>Сбор и анализ требований</li>
+                <li>Выявление функциональных требований</li>
+                <li>Подготовка технических заданий</li>
+                <li>Работа с конфигурацией 1С:ЗУП</li>
+                <li>Интеграция с внешними системами</li>
+                <li>Чтение нотаций BPMN</li>
+                <li>Работа с консолью запросов 1С</li>
+                <li>Чтение кода 1С</li>
+                <li>Понимание объектов метаданных системы 1С</li>
+                <li>Тестирование дорабатываемого функционала</li>
+                <li>Работа с REST API</li> <!-- Добавлено -->
+                <li>Сертификаты 1С: Профессионал и 1С: Специалист-консультант по системе 1С: ЗУП</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Опыт работы</h2>
+            <ul id="experience-list">
+                <li>Пример работы 1</li>
+                <li>Пример работы 2</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Контакты</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" aria-required="true" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" aria-required="true" required>
+                
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" aria-required="true" required></textarea>
+                
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Халайчев Валерий</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
